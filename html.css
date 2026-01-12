@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEM Study Abroad Checklist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>STEM Study Abroad Checklist</h1>
+            <p class="subtitle">Your guide to studying abroad as a STEM student</p>
+            <div class="progress-section">
+                <div class="progress-info">
+                    <span>Overall Progress</span>
+                    <span id="progress-text">0/0 tasks complete</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="checklist-sections">
+            <!-- Research & Planning Section -->
+            <div class="section">
+                <h2>
+                    <i class="fas fa-search"></i>
+                    Research & Planning
+                </h2>
+                <ul class="task-list" id="research-tasks">
+                    <li class="task-item">
+                        <input type="checkbox" id="task-1">
+                        <label for="task-1">Research study abroad programs that offer STEM courses</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-2">
+                        <label for="task-2">Check course transferability with your department advisor</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-3">
+                        <label for="task-3">Review program costs and create a budget</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-4">
+                        <label for="task-4">Attend study abroad information sessions</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-5">
+                        <label for="task-5">Meet with Texas State Study Abroad Office</label>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Application Process Section -->
+            <div class="section">
+                <h2>
+                    <i class="fas fa-file-alt"></i>
+                    Application Process
+                </h2>
+                <ul class="task-list" id="application-tasks">
+                    <li class="task-item">
+                        <input type="checkbox" id="task-6">
+                        <label for="task-6">Obtain passport or verify expiration date</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-7">
+                        <label for="task-7">Complete study abroad program application</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-8">
+                        <label for="task-8">Request letters of recommendation</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-9">
+                        <label for="task-9">Submit required transcripts</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-10">
+                        <label for="task-10">Complete visa application (if required)</label>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Gilman Scholarship Section -->
+            <div class="section gilman-section">
+                <h2>
+                    <i class="fas fa-award"></i>
+                    Gilman Scholarship
+                </h2>
+                <div class="gilman-info">
+                    <p><strong>The Gilman Scholarship</strong> provides up to $5,000 for undergraduate students to study or intern abroad.</p>
+                </div>
+                <ul class="task-list" id="gilman-tasks">
+                    <li class="task-item">
+                        <input type="checkbox" id="task-11">
+                        <label for="task-11">Verify Pell Grant eligibility</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-12">
+                        <label for="task-12">Create Gilman online account</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-13">
+                        <label for="task-13">Draft Statement of Purpose essay (max 5,000 characters)</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-14">
+                        <label for="task-14">Draft Follow-on Service Project proposal (max 3,000 characters)</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-15">
+                        <label for="task-15">Request faculty recommendation</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-16">
+                        <label for="task-16">Review and revise essays with advisor</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-17">
+                        <label for="task-17">Submit Gilman application before deadline</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-18">
+                        <label for="task-18">Complete follow-on service project (if awarded)</label>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Pre-Departure Section -->
+            <div class="section">
+                <h2>
+                    <i class="fas fa-plane-departure"></i>
+                    Pre-Departure
+                </h2>
+                <ul class="task-list" id="departure-tasks">
+                    <li class="task-item">
+                        <input type="checkbox" id="task-19">
+                        <label for="task-19">Register with Smart Traveler Enrollment Program (STEP)</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-20">
+                        <label for="task-20">Purchase international health insurance</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-21">
+                        <label for="task-21">Arrange housing accommodations</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-22">
+                        <label for="task-22">Book flights and transportation</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-23">
+                        <label for="task-23">Attend pre-departure orientation</label>
+                    </li>
+                    <li class="task-item">
+                        <input type="checkbox" id="task-24">
+                        <label for="task-24">Notify bank of international travel</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="reset-btn" class="btn-secondary">
+                <i class="fas fa-redo"></i> Reset All
+            </button>
+        </div>
+
+        <footer>
+            <p>Created for Texas State STEM students | Questions? Contact the <a href="https://www.studyabroad.txst.edu/" target="_blank">Study Abroad Office</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
